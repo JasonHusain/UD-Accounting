@@ -1,6 +1,6 @@
 /*Main Selectors*/
 /*headings*/
-h2, h6{
+h2, p{
   font-family: 'palatino linotype', sans-serif;     
   position: relative; 
   top: 30px;  
