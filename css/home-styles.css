@@ -12,8 +12,11 @@ h2.feature-text{
   font-size: 1.7rem;
   height: 230px;      
   color: #B78620; 
-  background-color: #2f3c23
+  background-color: #2f3c23;    
 }
+
+/*Selectors for Carousel Controls*/
+
 
 
 
@@ -30,32 +33,67 @@ h2.feature-text{
   margin-right: auto;       
 }
 
+
+
 .slide-image{   
   padding-top: 70px;      
   width: 350px;
-  height: 250px;  
+  height: 250px;     
 }
 
+
+
 @media screen and (max-width: 480px) and (min-width: 301px){
+
   .slide-image{
     width: 200px; 
-    height: 200px;  
+    height: 250px;  
   }
+
+ 
+  
 }
 
 @media screen and (max-width: 300px) and (min-width: 100px){
   .slide-image{
     width: 150px; 
-    height: 150px;  
+    height: 200px;  
   }
 
   h2.feature-text{
     font-size: 1.3rem;  
   }
 
+  .previous-control-text{
+    position: relative; 
+    top: 4px;  
+    left: 30px; 
+  }  
+
+  .next-control-text{
+    position: relative; 
+    top: 4px; 
+    right: 25px; 
+  }  
+  
+
 }
 
+@media screen and (max-width: 600px) and (min-width: 100px){
+  .slide-image{
+    width: 150px; 
+    height: 150px;  
+  }
 
+  h2.feature-text{
+    top: 20px;  
+    font-size: 1.3rem;
+    height: 150px;   
+  }
+} 
+
+
+/*Carousel Controls*/
 
 
 
