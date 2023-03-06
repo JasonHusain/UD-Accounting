@@ -3,7 +3,7 @@
     border: #B78620 3px solid;
     border-radius: 20px;
     width: 85%; 
-    height: 500px; 
+    height: 800px; 
     position: relative;
     top: 900px; 
     margin-left: auto;    
@@ -44,6 +44,13 @@
     padding-left: calc(10px + (50 - 10) * ((100vw - 100px) / (1600 - 100))); 
     padding-right: calc(10px + (50 - 10) * ((100vw - 100px) / (1600 - 100)));  
     line-break: auto;     
+  }
+
+  .brochure-download-link{
+    position: relative;
+    top: 300px;  
+    font-size: calc(15px + (25 - 15) * ((100vw - 100px) / (1600 - 100)));   
+    color: yellow;    
   }
 
   .main-service{
