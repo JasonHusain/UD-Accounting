@@ -10,7 +10,8 @@ h2{
 
 h2.feature-text{
   font-size: 1.7rem;
-  height: 230px;      
+  height: 230px;
+  padding-top: 70px;        
   color: #B78620; 
   background-color: #2f3c23;    
 }
@@ -26,7 +27,7 @@ h2.feature-text{
   border: #B78620 3px solid;
   border-radius: 20px;
   width: 85%; 
-  height: 500px; 
+  height: 570px; 
   position: relative;
   top: 900px; 
   margin-left: auto; 
@@ -42,16 +43,37 @@ h2.feature-text{
 }
 
 
+/*Media Queries for Responsive Design*/
+
+@media screen and (max-width: 600px) and (min-width: 160px){  
+  #slideshowContainer{
+    height: 400px;  
+  }
+  } 
+
+
+@media screen and (max-width: 600px) and (min-width: 360px){  
+  h2.feature-text{
+    padding-top: 30px;  
+    height: 200px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 359px) and (min-width: 100px){  
+  h2.feature-text{
+    padding-top: 15px;  
+    height: 200px;
+  }
+}
 
 @media screen and (max-width: 480px) and (min-width: 301px){
 
   .slide-image{
-    width: 200px; 
-    height: 250px;  
+    padding-top: 40px;   
   }
-
- 
-  
 }
 
 @media screen and (max-width: 300px) and (min-width: 100px){
@@ -61,13 +83,14 @@ h2.feature-text{
   }
 
   h2.feature-text{
-    font-size: 1.3rem;  
+    font-size: 1.3rem; 
+     
   }
 
   .previous-control-text{
     position: relative; 
     top: 4px;  
-    left: 30px; 
+    left: 40px; 
   }  
 
   .next-control-text{
@@ -91,6 +114,13 @@ h2.feature-text{
     height: 150px;   
   }
 } 
+
+@media screen and (max-width: 390px) and (min-width: 100px){
+  .previous-control-text{
+    position: relative;
+    left: 35px;  
+  }
+}
 
 
 /*Carousel Controls*/
